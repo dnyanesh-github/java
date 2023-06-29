@@ -4,41 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9bc3e21-37ba-4923-9deb-faee37f86ee3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java practice exercises.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arithmeticOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/binary_operations/addTwoBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/binary_operations/addTwoBinaryNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/binary_operations/binaryInputs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/binary_operations/multiplyTwoBinaryNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/checkJavaVersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coding_challenges/Arrays/findArrayMean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coding_challenges/divideRestaurantBill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coding_challenges/if_else/compareTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coding_challenges/if_else/pickRandomNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coding_challenges/if_else/rollercoasterHeightCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coding_challenges/loops/everyThirdNumberQuack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coding_challenges/loops/numberGuessingGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coding_challenges/loops/printOneToTenOneLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coding_challenges/loops/printSetOfNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coding_challenges/loops/validateUserPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coding_challenges/userInputChallenge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decToOct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/divisionOfTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intToHex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/integerToBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/octToDec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/printJavaPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/printMultiplicationTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sumOfTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sumofIntegersofaNumber.java" afterDir="false" />
+    <list default="true" id="a9bc3e21-37ba-4923-9deb-faee37f86ee3" name="Changes" comment="all the new practice codes">
+      <change afterPath="$PROJECT_DIR$/src/coding_challenges/Arrays/arbitraryArrayOfTenElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coding_challenges/Arrays/outOfMemoryArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coding_challenges/Arrays/populateArrayOneToTwenty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,13 +51,13 @@
       <recent name="binary_operations" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.findArrayMean">
-    <configuration name="everyThirdNumberQuack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coding_challenges.loops.everyThirdNumberQuack" />
+  <component name="RunManager" selected="Application.outOfMemoryArray">
+    <configuration name="arbitraryArrayOfTenElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coding_challenges.Arrays.arbitraryArrayOfTenElements" />
       <module name="java practice exercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coding_challenges.loops.*" />
+          <option name="PATTERN" value="coding_challenges.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="printOneToTenOneLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coding_challenges.loops.printOneToTenOneLine" />
+    <configuration name="outOfMemoryArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coding_challenges.Arrays.outOfMemoryArray" />
       <module name="java practice exercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coding_challenges.loops.*" />
+          <option name="PATTERN" value="coding_challenges.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="validateUserPassword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coding_challenges.loops.validateUserPassword" />
+    <configuration name="populateArrayOneToTwenty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coding_challenges.Arrays.populateArrayOneToTwenty" />
       <module name="java practice exercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coding_challenges.loops.*" />
+          <option name="PATTERN" value="coding_challenges.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.outOfMemoryArray" />
+        <item itemvalue="Application.populateArrayOneToTwenty" />
+        <item itemvalue="Application.arbitraryArrayOfTenElements" />
         <item itemvalue="Application.findArrayMean" />
         <item itemvalue="Application.numberGuessingGame" />
-        <item itemvalue="Application.printOneToTenOneLine" />
-        <item itemvalue="Application.validateUserPassword" />
-        <item itemvalue="Application.everyThirdNumberQuack" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +136,20 @@
       <option name="presentableId" value="Default" />
       <updated>1687194709958</updated>
     </task>
+    <task id="LOCAL-00001" summary="all the new practice codes">
+      <option name="closed" value="true" />
+      <created>1688056453546</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688056453546</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="all the new practice codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="all the new practice codes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
