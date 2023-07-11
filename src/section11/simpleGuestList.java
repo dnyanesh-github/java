@@ -23,6 +23,12 @@ public class simpleGuestList {
                 deleteGuest();
             }
             else if (userSelection == 3) {
+                editGuests();
+            }
+            else if (userSelection == 4) {
+                insertGuest();
+            }
+            else if (userSelection == 5) {
                 System.out.println("Exiting...");
                 break;
             }
@@ -49,8 +55,10 @@ public class simpleGuestList {
         System.out.println("________________________________");
         System.out.println("- Menu - ");
         System.out.println("1 - Add guest");
-        System.out.println("2 - Remove Guest");
-        System.out.println("3 - Exit");
+        System.out.println("2 - Remove guest");
+        System.out.println("3 - Edit guest");
+        System.out.println("4 - Insert guest");
+        System.out.println("5 - Exit");
     }
 
     static int getOption() {
@@ -74,7 +82,7 @@ public class simpleGuestList {
     static void deleteGuest() {
         System.out.print("Enter guest number please: ");
         int guestNumber = keyboard.nextInt();
-        if(guestNumber <= guests.length && guestNumber > 0) {
+        if(guestNumber <= guests.length && guestNumber > 0 && guests[guestNumber-1] != null ) {
             guests[guestNumber - 1] = null;
         }
         else {
@@ -87,6 +95,39 @@ public class simpleGuestList {
             if (guest != null) {
                 tempArray[ti] = guest;
                 ti++;
+            }
+        }
+        guests = tempArray;
+    }
+
+    static void editGuests() {
+        System.out.print("Enter the number of the guest you want to replace: ");
+        int guestNum = keyboard.nextInt();
+        keyboard.nextLine();
+        if ( guestNum > 0 && guestNum<= guests.length && guests[guestNum-1] != null ) {
+            System.out.print("Enter the new name: ");
+            guests[guestNum - 1] = keyboard.nextLine();
+        }
+        else {
+            System.out.println("Error: There is no guest with that number");
+        }
+    }
+
+    static void insertGuest() {
+        System.out.print("Please enter the number of the guest: ");
+        int guestNum = keyboard.nextInt();
+        keyboard.nextLine();
+        System.out.print("Please enter the name: ");
+        String guestName = keyboard.nextLine();
+        String[] tempArray = new String[guests.length];
+        int phNum = 0;
+        for ( int i = 0; i < guests.length; i++ ) {
+            if ( i == ( guestNum - 1 ) ) {
+                tempArray[i] = guestName;
+            }
+            else {
+                tempArray[i] = guests[phNum];
+                phNum++;
             }
         }
         guests = tempArray;

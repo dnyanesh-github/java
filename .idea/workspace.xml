@@ -5,12 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9bc3e21-37ba-4923-9deb-faee37f86ee3" name="Changes" comment="all the new practice codes">
-      <change afterPath="$PROJECT_DIR$/src/coding_challenges/section10/guessOneToHundred.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coding_challenges/section10/studentStatistics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coding_challenges/section10/trueOrFalseQuestions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/section11/simpleGuestList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayList/ArrayList1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composition/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composition/SkillLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composition/Sports.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composition/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composition/StudentInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Misc/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Misc/biggestOfThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Misc/challenge2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Misc/kthGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oops/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oops/Employees/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oops/Employees/EmployeeRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oops/Oops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oops/Shape/AreaOfTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oops/Shape/Shapes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oops/Shape/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oops/pens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradClass/Bookmyshow/Bookmyshow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradClass/Lift/buildingLIft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradClass/Parkingsystem/bikeParking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradClass/Parkingsystem/busParking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradClass/Parkingsystem/carParking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradClass/Parkingsystem/vehicleParkingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coding_challenges/loops/getPositionalNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmeticOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/arithmeticOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checkJavaVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/checkJavaVersion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/coding_challenges/loops/numberGuessingGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coding_challenges/loops/numberGuessingGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decToOct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/decToOct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/divisionOfTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/divisionOfTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/intToHex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/intToHex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/integerToBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/integerToBinary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/octToDec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/octToDec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/printJavaPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/printJavaPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/printMultiplicationTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/printMultiplicationTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/section11/simpleGuestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/section11/simpleGuestList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sumOfTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/sumOfTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sumofIntegersofaNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/sumofIntegersofaNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +55,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -35,17 +70,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Dell/IdeaProjects/java practice exercises/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Dell/IdeaProjects/java practice exercises/src/Composition",
+    "onboarding.tips.debug.path": "C:/Users/Dell/IdeaProjects/java practice exercises/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\IdeaProjects\java practice exercises\src\Composition" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dell\IdeaProjects\java practice exercises\src" />
     </key>
@@ -53,13 +92,13 @@
       <recent name="binary_operations" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.simpleGuestList">
-    <configuration name="guessOneToHundred" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coding_challenges.section10.guessOneToHundred" />
+  <component name="RunManager" selected="Application.StudentInfo">
+    <configuration name="AreaOfTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Oops.Shape.AreaOfTriangle" />
       <module name="java practice exercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coding_challenges.section10.*" />
+          <option name="PATTERN" value="Oops.Shape.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="letProgramGuessTheNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coding_challenges.section10.letProgramGuessTheNumber" />
+    <configuration name="ArrayList1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayList.ArrayList1" />
       <module name="java practice exercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coding_challenges.section10.*" />
+          <option name="PATTERN" value="ArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="simpleGuestList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section11.simpleGuestList" />
+    <configuration name="EmployeeRecord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Oops.Employees.EmployeeRecord" />
       <module name="java practice exercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section11.*" />
+          <option name="PATTERN" value="Oops.Employees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="studentStatistics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coding_challenges.section10.studentStatistics" />
+    <configuration name="StudentInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Composition.StudentInfo" />
       <module name="java practice exercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coding_challenges.section10.*" />
+          <option name="PATTERN" value="Composition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="trueOrFalseQuestions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coding_challenges.section10.trueOrFalseQuestions" />
+    <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Oops.Shape.Triangle" />
       <module name="java practice exercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coding_challenges.section10.*" />
+          <option name="PATTERN" value="Oops.Shape.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.simpleGuestList" />
-        <item itemvalue="Application.guessOneToHundred" />
-        <item itemvalue="Application.letProgramGuessTheNumber" />
-        <item itemvalue="Application.trueOrFalseQuestions" />
-        <item itemvalue="Application.studentStatistics" />
+        <item itemvalue="Application.StudentInfo" />
+        <item itemvalue="Application.ArrayList1" />
+        <item itemvalue="Application.AreaOfTriangle" />
+        <item itemvalue="Application.Triangle" />
+        <item itemvalue="Application.EmployeeRecord" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688060072722</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="all the new practice codes">
+      <option name="closed" value="true" />
+      <created>1688572223851</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688572223851</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -165,7 +212,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/Misc/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

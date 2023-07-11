@@ -27,6 +27,6 @@ public class numberGuessingGame {
                 System.out.println("The correct number was " + randomNumber);
                 System.out.println("It took you " + counter + " guesses to get it right!");
             }
-        } while(userInput != randomNumber);
+        } while(userInput != randomNumber); 
     }
 }

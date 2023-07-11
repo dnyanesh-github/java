@@ -1,3 +1,5 @@
+package Misc;
+
 public class checkJavaVersion {
     public static void main(String[] args) {
         System.out.println("\nJava Version: "+System.getProperty("java.version"));

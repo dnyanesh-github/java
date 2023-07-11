@@ -1,3 +1,5 @@
+package Misc;
+
 import java.util.Scanner;
 public class integerToBinary {
     public static void main(String[] args) {
